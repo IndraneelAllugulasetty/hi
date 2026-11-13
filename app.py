@@ -14,12 +14,12 @@ class TestCalculator(unittest.TestCase):
   def test_multiply(self):
     self.assertEqual(multiply(6,4),24)
 
-if _name=="_main_":
+if __name__=="__main__":
   print("student calculator application")
   print("addition:",add(20,30))
   print("subtraction:",subtract(30,20))
   print("multiply:",multiply(6,4))
-  print("/n executing automated test---/n")
+  print("\n executing automated test---\n")
   unittest.main(argv=["first-arg-is-ignored"],exit=False)
   
 
