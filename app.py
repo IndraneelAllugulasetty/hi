@@ -20,7 +20,7 @@ if _name=="_main_":
   print("subtraction:",subtract(30,20))
   print("multiply:",multiply(6,4))
   print("/n executing automated test---/n")
-  unittest.main(argv=["Frist-arg-is-ignored"],exit=false)
+  unittest.main(argv=["first-arg-is-ignored"],exit=False)
   
 
   
