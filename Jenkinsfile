@@ -23,6 +23,7 @@ pipeline{
         bat 'python app.py'
       }
     }
+  }
     post{
       success{
         echo 'CI Pipeline completed successfully'
